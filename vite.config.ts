@@ -1,7 +1,8 @@
-import { defineConfig } from '@tanstack/react-start'
+import { defineConfig } from '@tanstack/start/config'
+import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  // Ye line add karo taaki ye static export ho jaye
+  plugins: [react()],
   build: {
     outDir: 'dist',
   },
