@@ -1,4 +1,4 @@
-import { defineConfig } from '@tanstack/start/config'
+import { defineConfig } from '@tanstack/react-start'
 
 export default defineConfig({
   // Ye line add karo taaki ye static export ho jaye
